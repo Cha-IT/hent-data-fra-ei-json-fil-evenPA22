@@ -1,0 +1,41 @@
+/* Generell stil for sangene */
+#sangliste {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-item {
+    margin-bottom: 20px;
+    border: 1px solid #00fbff;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #d7fffa;
+}
+
+.song-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.song-item h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000000;
+}
+
+.song-item p {
+    margin: 5px 0;
+    color: #000000;
+}
+
+
+  
+.artist-bilde, .album-bilde {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin-right: 100px;
+    float: right;
+    margin-top: 2em;
+    gap: 10px;
+}

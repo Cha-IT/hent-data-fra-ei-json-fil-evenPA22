@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+<h1>Mine favoritt sanger for uka</h1>
+
+    <div id="sangliste"></div>
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <h1>Forrige favoritter</h1>
+    <ul id="ukens-sanger"></ul>
+
+    <h2>Arkiv</h2>
+    <ul id="arkiv"></ul>
+
+    <script type="module">
+        import sanger from "./sanger.json" with { "type": "json" };
+
+        const ukensSangerListe = document.querySelector("#ukens-sanger");
+        const arkivListe = document.querySelector("#arkiv");
+
+        sanger.forEach((sang, index) => {
+            const sangElement = `
+                <div class="song-item">
+                    <div class="song-images">
+                        <img src="${sang.artistBilde}" alt="Bilde av ${sang.artist}" class="artist-bilde">
+                        <img src="${sang.albumBilde}" alt="Albumcover: ${sang.album}" class="album-bilde">
+                    </div>
+                    <p>${sang.tittel}</p>
+                    <p>${sang.artist}</p>
+                    <p>${sang.album}</p>
+                    <p>${sang.sjanger}</p>
+                    <p>${sang.link}</p>
+                    <p>${sang.anmeldelse}</p>
+                </div>
+            `;
+
+            if (index < 5) {
+                ukensSangerListe.innerHTML += sangElement;
+            } else {
+                arkivListe.innerHTML += sangElement;
+            }
+        });
+
+        console.log(sanger);
+    </script>
+
+
+</body>
+</html>
