@@ -1,0 +1,65 @@
+[
+    {
+      "tittel": "<h2><b>Tittel:</b> Headlines</h2>",
+      "artist": "<b>Artist:</b> Drake, 38 år, Toronto",
+      "artistBilde":"img/drake.jpg",
+      "album": "<b>album:</b> Take care",
+      "albumBilde":"img/takecare.jpg",
+      "utgivelsesår": 2011,
+      "sjanger": "<b>Sjanger:</b> R&B/soul Hip-Hop/Rap",
+      "link": "<a href='https://www.youtube.com/watch?v=cimoNqiulUE'>Link: Headlines</a>",
+      "anmeldelse": "<b>Anmeldelse:</b> Sangen her ligger høyt opp på Drake sine beste rap sanger.<br> Jeg elsker det instrumentale i sangen og lyrikken er catchy og flyter godt<br> gjennom hele sangen. En av mine absolutt favoritt sanger."
+
+    },
+    {
+      "tittel": "<h2><b>Tittel:</b> Devil in a new dress</h2>",
+      "artist": "<b>Artist:</b> Kanye west, 47 år, Atlanta",
+      "artistBilde":"img/kanye.jpg",
+      "album": "<b>Album:</b> MBDTF",
+      "albumBilde":"img/mbdtf.jpg",
+      "utgivelsesår": 2010,
+      "sjanger": "<b>Sjanger:</b> Hip-Hop/Rap",
+        "link": "<a href='https://www.youtube.com/watch?v=sk3rpYkiHe8'>Link: Devil in a new dress</a>",
+        "anmeldelse": "<b>Anmeldelse:</b> Denne sangen er favoritt sangen min på hele albumet til Kanye.<br>Det har en veldig god flyt og det instrumentale er veldig gjennomtenkt.<br> Jeg synes også at sangen inneholder en av de beste trekkene i rap med Rick Ross.<br> Anbefaler sterkt å høre på sangen her."
+
+
+    },
+    {
+      "tittel": "<h2><b>Tittel:</b> 90210</h2>",
+        "artist": "<b>Artist:</b> Travis scott, 33 år, Houston",
+        "artistBilde":"img/travis.jpg",
+        "album": "<b>Album:</b> Rodeo",
+        "albumBilde":"img/rodeo.jpg",
+      "utgivelsesår": 2015,
+      "sjanger": "<b>Sjanger:</b> R&B/soul Pop",
+        "link": "<a href='https://www.youtube.com/watch?v=BuNBLjJzRoo'>Link: 90210</a>",
+        "anmeldelse": "<b>Anmeldelse:</b> Her har vi et mesterverk fra Travis Scott.<br> Det mest imponerende med sangen er produksjonen<br> og hvordan Travis Scott sin stemme passer perfekt til beatet.<br> Alt i alt en så si perfekt sang."
+
+    },
+    {
+      "tittel": "<h2><b>Tittel:</b> GIMME A HUG</h2>",
+        "artist": "<b>Artist:</b> Drake, 38 år, Toronto",
+        "artistBilde":"img/drake2.jpg",
+        "album": "<b>Album:</b> some sexy songs 4U",
+        "albumBilde":"img/some.jpg",
+      "utgivelsesår": 2025,
+      "sjanger": "<b>Sjanger:</b> R&B/soul Hip-Hop/Rap",
+        "link": "<a href='https://www.youtube.com/watch?v=Ga8vFYYC9cY'>Link: GIMME A HUG</a>",
+        "anmeldelse": "<b>Anmeldelse:</b> Drake viser til sterk tilbakekomst med denne sangen<br> etter en litt tvilsom periode. En av de mer catchy sangene fra Drake<br> og det inneholder en av de mest underholdene beatswitchene jeg har hørt,<br> med tanke på lyrikkene og produksjonen."
+
+
+    },
+    {
+      "tittel": "<h2><b>Tittel:</b> They dont love it</h2>",
+      "artist": "<b>Artist:</b> Jack Harlow, 27 år, Louisville",
+      "artistBilde":"img/jack.jpg",
+      "album": "<b>Album:</b> Jackman",
+      "albumBilde":"img/man.jpg",
+      "utgivelsesår": 2023,
+      "sjanger": "<b>Sjanger:</b> Hip-Hop/Rap",
+        "link": "<a href='https://www.youtube.com/watch?v=EU04UEnhv_o'>Link: They dont love it</a>",
+        "anmeldelse": "<b>Anmeldelse</b> En veldig imponerende rap forestillingene jeg har hørt.<br> Hvordan han mikser lyrikkene sammen med beaten er veldig kult og inspirerende.<br> En super klassik fra Jack Harlow. Anbefaler sterkt."
+      
+    }
+  ]
+  
